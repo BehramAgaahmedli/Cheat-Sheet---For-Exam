@@ -149,6 +149,10 @@ Veracrypt — anything related to volume
 
 https://hashes.com/en/decrypt/hash
 
+rdesktop <target_ip> -u Jones -p <password>
+openssl enc -d -aes-256-cbc -in hide.cfe -out decrypted_image.jpg -pass pass:<Jones_password>
+steghide extract -sf filename.jpg ( elave metod)
+crc32 decrypted_image.jpg*
 
 
 ##### Mobile Hacking #### 
